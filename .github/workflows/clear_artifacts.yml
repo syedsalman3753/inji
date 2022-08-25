@@ -1,6 +1,7 @@
 name: 'Delete old artifacts'
 on:
-  workflow_dispatch
+  workflow_dispatch:
+     inputs: ''
 
 jobs:
   delete-artifacts:
